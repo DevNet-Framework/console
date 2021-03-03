@@ -1,7 +1,7 @@
 {
     "name": "devnet/console",
     "description": "DevNet Console Application Project",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,25 +9,12 @@
             "email": "m.moussaoui@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Application\\": ""
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/cli.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/core.git"
-        }
-    ],
     "require": {
-        "php": ">=7.4.0",
-        "devnet/cli": "dev-master",
-        "devnet/core": "dev-master"
+        "php": ">=7.4.0"
     }
 }
