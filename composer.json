@@ -1,0 +1,12 @@
+{
+    "name": "devnet/console-template",
+    "description": "DevNet Console Application",
+    "type": "devnet-template",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4.0",
+        "devnet/core": "1.0.*"
+    }
+}
