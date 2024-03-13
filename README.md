@@ -1,18 +1,18 @@
 # DevNet Console Template
-This package is a Console application template of DevNet Framework.
+This package is a Console application template for DevNet Framework.
 
 ## Requirements
 - [PHP](https://www.php.net/) version 8.1 or higher
 - [Composer](https://getcomposer.org/) version 2.0 or higher
 
 ## Installation
-To create a DevNet Console Application project using composer, run the following command in your terminal:
+You can use DevNet CLI to create a console application project by running the following command in your terminal:
 ```
-composer create-project devnet/console-template [project-name]
+devnet new console --project [project-Name]
 ```
-Or using DevNet CLI
+Or using composer
 ```
-devnet new console --project [project-name]
+composer create-project devnet/console [project-Name]
 ```
 
 ## Execution

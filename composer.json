@@ -1,8 +1,11 @@
 {
-    "name": "devnet/console-template",
+    "name": "devnet/console",
     "description": "Console Application",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require": {
+        "devnet/system": "1.1.*"
+    }
 }
